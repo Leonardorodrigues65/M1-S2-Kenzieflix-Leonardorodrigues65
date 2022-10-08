@@ -1,0 +1,202 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+body{
+    
+    background-color: black;
+    
+    
+    
+    
+
+}
+.logo{
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+}
+
+
+    .titulo{      
+        color: white;
+        text-align: center;
+        height: 80px;
+        padding: 5px;
+        margin: 5px;
+        font-family: 'Roboto', sans-serif;
+        
+
+    
+    }
+
+    main{
+
+    }
+
+ 
+     
+
+.section{
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    
+    
+    
+    
+
+
+}
+.flexbox{
+    display:flex;
+    justify-content:center ;
+
+    
+
+    
+    
+    
+    
+    
+    
+
+
+}
+
+.box1{
+    color: white;
+
+  width: 160px;
+  height: 200px; 
+  margin: 10px;
+  list-style-type: none;
+  cursor: pointer;
+}
+  
+
+  
+
+
+.box2{
+    width: 160px;
+    height: 200px; 
+    margin:10px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+    
+    
+
+
+
+.box3{ 
+    
+    width: 160px;
+    height: 200px; 
+    margin:10px;
+    border: 1px;
+    list-style-type: none;
+    cursor: pointer;
+}
+    
+    
+    
+
+
+.box4{
+    
+
+    width: 160px;
+    height: 200px; 
+    margin:10px;
+    list-style-type: none;
+    border: 2px;
+    cursor: pointer;
+    
+
+
+}
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+
+
+
+img{
+
+    border-radius: 8px;
+    
+}
+
+ p{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    
+
+
+
+   }
+
+.imgs{
+    Object-fit: scale-down;
+     width: 160px;
+
+    
+
+}
+.botao{
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+}
+
+button
+{
+     
+    margin-right: 40px;
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.botao button:hover{
+    color:blue;
+}
+
+
+
+.box1 p:hover{
+    color:blue;
+}
+
+
+.box2 p:hover{
+    color: blue;
+}
+
+.box3 p:hover{
+    color:blue;
+}
+
+.box4 p:hover{
+    color:blue;
+}
