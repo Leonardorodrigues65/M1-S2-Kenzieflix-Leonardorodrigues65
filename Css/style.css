@@ -6,139 +6,67 @@
 body{
     
     background-color: black;
-    
-    
-    
-    
-
 }
 .logo{
     display: flex;
     padding: 40px;
     justify-content: center;
     align-items: center;
+    
+}
+
+.logo2{
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
     height: 100px;
+    width: 200px;
+    
 
 }
 
-
-    .titulo{      
-        color: white;
-        text-align: center;
-        height: 80px;
-        padding: 5px;
-        margin: 5px;
-        font-family: 'Roboto', sans-serif;
-        
-
-    
-    }
-
-    main{
-
-    }
-
- 
-     
+ .titulo{      
+    color: white;
+    text-align: center;
+    height: 80px;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+       
+ }
 
 .section{
     justify-content: center;
     align-items: center;
     padding: 30px;
-    
-    
-    
-    
-
 
 }
-.flexbox{
+.flex-box{
     display:flex;
     justify-content:center ;
-
-    
-
-    
-    
-    
-    
-    
-    
-
+    border-radius: 9px;
+    margin: 10px;
 
 }
 
-.box1{
-    color: white;
+.box{
+    
 
   width: 160px;
-  height: 200px; 
+  height: 160px; 
   margin: 10px;
   list-style-type: none;
   cursor: pointer;
-}
   
-
-  
-
-
-.box2{
-    width: 160px;
-    height: 200px; 
-    margin:10px;
-    list-style-type: none;
-    cursor: pointer;
 }
-
-    
-    
-
-
-
-.box3{ 
-    
-    width: 160px;
-    height: 200px; 
-    margin:10px;
-    border: 1px;
-    list-style-type: none;
-    cursor: pointer;
-}
-    
-    
-    
-
-
-.box4{
-    
-
-    width: 160px;
-    height: 200px; 
-    margin:10px;
-    list-style-type: none;
-    border: 2px;
-    cursor: pointer;
-    
-
-
-}
-    
-    
-    
-    
-    
-
-    
-    
-
-    
-
-
 
 img{
 
     border-radius: 8px;
-    
+    width: 160px;
+    height: 160px;
+      
 }
 
  p{
@@ -146,17 +74,18 @@ img{
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    
-
-
+    opacity: 0.5;
+    transition-duration: 0.4s;
+    text-decoration: none;
 
    }
-
-.imgs{
+#imgs{
     Object-fit: scale-down;
      width: 160px;
+     height: 160px;
+     border-radius: 9px;
+     opacity: 0.5;
 
-    
 
 }
 .botao{
@@ -171,32 +100,34 @@ button
     margin-right: 40px;
     width: 150px;
     height: 40px;
-    border-radius: 8px;
+    border-radius: 8px solid ;
+    border: 1px solid white;
     background-color: black;
     color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
 
 .botao button:hover{
-    color:blue;
+    background-color: white;
+    color: black;
+    
 }
 
 
+.box :hover {
+    box-shadow:  1px 1px 1em rgba(255, 255, 255, 0.9);
+    border-radius: 9px;
 
-.box1 p:hover{
-    color:blue;
+
+    }  
+
+
+#imgs:hover{
+    opacity:1.0 ;
+
 }
 
-
-.box2 p:hover{
-    color: blue;
-}
-
-.box3 p:hover{
-    color:blue;
-}
-
-.box4 p:hover{
-    color:blue;
-}
